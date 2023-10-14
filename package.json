@@ -1,0 +1,32 @@
+{
+  "name": "dangdang",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --mode development --open",
+    "build": "vue-tsc && vite build --mode production",
+    "preview": "vite preview --open --port 8888",
+    "eslint": "eslint --init",
+    "lint": "eslint --ext .ts --ext .vue --ext js src/"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "element-plus": "^2.4.0",
+    "good-storage": "^1.1.1",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "eslint": "7.2.0",
+    "eslint-plugin-vue": "7.20.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vue-eslint-parser": "^9.3.1",
+    "vue-tsc": "^1.8.5"
+  }
+}
